@@ -128,3 +128,14 @@ aside>img {
   flex-grow: 8;
   padding-left: 30px;
 }
+
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 800px;
+}
+
+.tech-stack > div {
+  /* padding: 0 10px; */
+}
