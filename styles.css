@@ -5,16 +5,17 @@ html {
 body {
   min-height: 100vh;
   overflow: auto;
-  font-family: 'Roboto Condensed', monospace;
+  font-family: "Roboto Condensed", monospace;
   margin: 0;
   background-color: #fff;
   color: rgb(68, 68, 68);
   -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
   padding-right: 20px;
 }
 
 h1 {
-  font-family: 'Alegreya', serif;
+  font-family: "Alegreya", serif;
   font-weight: 700;
   line-height: 43px;
   font-size: 43px;
@@ -23,7 +24,7 @@ h1 {
 
 h2,
 h3 {
-  font-family: 'Roboto Condensed', monospace;
+  font-family: "Roboto Condensed", monospace;
   text-transform: uppercase;
 }
 
@@ -41,12 +42,12 @@ h3 {
   margin-bottom: 0px;
 }
 
-h3+.timespan {
+h3 + .timespan {
   margin-bottom: 8px;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 20px;
   margin: 0 0 20px 0;
@@ -62,36 +63,36 @@ section:last-child {
 
 a,
 a:visited {
-  color: #fff
+  color: #fff;
 }
 
 a:hover {
-  color: rgb(143, 142, 142)
+  color: rgb(143, 142, 142);
 }
 
 a.company-link {
   text-decoration: none;
-  color: rgb(68, 68, 68)
+  color: rgb(68, 68, 68);
 }
 
-aside>ul {
+aside > ul {
   margin: 0;
   list-style: none;
   padding: 0;
 }
 
-aside>ul>li {
+aside > ul > li {
   line-height: 20px;
 }
 
-aside>img {
+aside > img {
   border-radius: 50%;
   margin-left: 25%;
   margin-top: 50px;
 }
 
 .timespan {
-  opacity: .6;
+  opacity: 0.6;
   margin: 0 0 8px 0;
 }
 
@@ -109,7 +110,7 @@ aside>img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 120px;
 }
 
 .header {
@@ -121,7 +122,6 @@ aside>img {
   flex-grow: 3;
   color: #fff;
   padding: 20px;
-
 }
 
 .timeline {
