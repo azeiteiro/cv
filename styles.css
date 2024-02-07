@@ -59,7 +59,6 @@ section {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  page-break-inside: avoid;
 }
 
 section:not(:first-of-type)::before {
